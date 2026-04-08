@@ -55,9 +55,9 @@ public class GPACalculator {
 
     // GPA number → standing label
     public static String standing(double gpa) {
-        if (gpa >= 3.7) return "Summa Cum Laude";
-        if (gpa >= 3.5) return "Magna Cum Laude";
-        if (gpa >= 3.0) return "Cum Laude";
+        if (gpa >= 3.7) return "Highest Distinction";
+        if (gpa >= 3.5) return "High Distinction";
+        if (gpa >= 3.0) return "Distinction";
         if (gpa >= 2.0) return "Good Standing";
         if (gpa >  0.0) return "Academic Probation";
         return "No grades";
